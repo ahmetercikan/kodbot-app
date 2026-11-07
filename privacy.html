@@ -20,10 +20,10 @@
 <p>Apart from the optional parent account, Kodbot <strong>does not collect any personal data</strong> such as name, email or location. It contains no ads, analytics or tracking. The game works offline; the internet is used only to purchase and verify a Premium subscription.</p>
 
 <h2>Information stored on the device</h2>
-<p>Game progress (completed missions, stars, badges, chosen robot, settings and the nickname entered) is stored only on your device. It is never sent to a server and is removed when the app is deleted.</p>
+<p>Game progress (completed missions, stars, badges, chosen robot, robot designs and the nickname entered) is stored on your device. Without an account it never leaves the device and is removed when the app is deleted.</p>
 
 <h2>Parent account (optional)</h2>
-<p>The app works fully without an account. A parent may optionally create one, behind the parental question, with email and password or Sign in with Apple. Its only purpose is to restore a Premium subscription on a new device. In that case only the email address and a random user ID are stored with Google Firebase Authentication; game progress stays on the device. The account can be deleted instantly and permanently in the app under Profile → Parent account → Delete account, or by emailing the address below.</p>
+<p>The app works fully without an account. A parent may optionally create one, behind the parental question, with email and password or Sign in with Apple. Its purpose is to keep game progress and the Premium subscription when changing devices. In that case the email address and a random user ID are stored with Google Firebase Authentication, and a backup of the game progress listed above is stored in Google Cloud Firestore, readable only by that account. Sound, language and similar settings stay on the device. The account can be deleted instantly and permanently in the app under Profile → Parent account → Delete account, or by emailing the address below.</p>
 <h2>Subscriptions and payments</h2>
 <p>Kodbot Premium is purchased through the App Store (Apple) or Google Play; we never see your payment details. RevenueCat is used to verify whether a subscription is active. Only a randomly generated anonymous user ID and the purchase record (product, date, status) are shared with RevenueCat; nothing that identifies you is sent. The purchase screen is protected by a parental question.</p>
 <h2>Third parties</h2>
